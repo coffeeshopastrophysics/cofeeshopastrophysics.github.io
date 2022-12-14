@@ -1,3 +1,5 @@
 # Website for Coffee Shop Astrophysics
 
-[coffeeshopastrophysics.github.io](coffeeshopastrophysics.github.io)
+- [Homepage](https://coffeeshopastrophysics.github.io)
+- [Current Talks](https://coffeeshopastrophysics.github.io/current.html)
+
