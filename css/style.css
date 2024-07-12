@@ -356,3 +356,11 @@ img {
     display: flex;
     align-items: center;
 }
+
+.contact {
+    display: flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    align-items: center;
+}
