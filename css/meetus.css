@@ -1,0 +1,104 @@
+.meetus_paragraph {
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    color: white;
+}   
+  
+.csa_members {
+    flex: auto;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#csa_members {
+            position: relative;
+            overflow: hidden; /* Prevent overflow */
+}
+
+.row-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 2px;
+}
+
+.member {
+  width: 200px;
+  margin-bottom: 20px; /* Add some space between members */
+}
+
+.hover_container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.member_name {
+  width: 100%; /* Light grey background, adjust as needed */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(124, 34, 140, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+} */
+
+/* .hover_container:hover .overlay {
+  opacity: 1;
+} */
+
+/* .text {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+} */
+
+
+
+#overlay_info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:  #7C228C;
+  color: white;
+  display: none;
+  font-size: 100 px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  pointer-events: none;
+}
